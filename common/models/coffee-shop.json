@@ -13,6 +13,9 @@
     },
     "city": {
       "type": "string"
+    },
+    "updatedAt": {
+      "type": "date"
     }
   },
   "validations": [],

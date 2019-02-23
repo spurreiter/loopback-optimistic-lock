@@ -34,15 +34,10 @@
   "auth": {},
   "parse": {},
   "routes": {
-    "loopback#rest": {
-      "paths": [
-        "${restApiRoot}"
-      ]
-    }
   },
   "files": {
     "loopback#static": {
-      "params": "$!../client" 
+      "params": "$!../client"
     }
   },
   "final": {
